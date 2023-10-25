@@ -63,3 +63,37 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+/* ******main css starts here */
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pillar {
+  font-weight: 600;
+}
+
+header button {
+  border: 0;
+  padding: 5px 20px;
+  color: floralwhite;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: rgb(219, 184, 184);
+}
+.menu ul {
+  display: flex;
+  gap: 0.5rem;
+ font-size: 12px;
+}
+
+.menu ul li {
+  list-style-type: none;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
