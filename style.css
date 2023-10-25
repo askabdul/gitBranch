@@ -75,13 +75,12 @@ header {
   font-weight: 600;
 }
 
-header button {
+header btn {
   border: 0;
   padding: 5px 20px;
   color: floralwhite;
   cursor: pointer;
   border-radius: 5px;
-  background-color: rgb(219, 184, 184);
 }
 .menu ul {
   display: flex;
