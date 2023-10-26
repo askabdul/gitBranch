@@ -63,3 +63,32 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* blue_section  */
+
+.startups_section {
+  background-color:#5716b8;
+}
+
+.sub_sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr  ));
+    padding: 1.5rem 5rem;
+    gap: 2rem;
+  color: rgb(232, 226, 226);
+  opacity: 0.9;
+}
+
+.startups_text h2 {
+   font-size: 15px;
+   padding-top: 0.4rem;
+}
+
+.startups_text P {
+  font-size: 14px;
+  padding-top: 0.5rem;
+}
+
+.startups_text i {
+  font-size: 1.5rem;
+}
