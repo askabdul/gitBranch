@@ -68,15 +68,17 @@ h6 {
 
 .startups_section {
   background-color: #5716b8;
+
 }
 
 .sub_sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  padding: 1.9rem 5rem;
-  gap: 2rem;
+  gap: 3rem;
   color: rgb(232, 226, 226);
   opacity: 0.9;
+  padding: 3rem 10rem;
+
 }
 
 .startups_text h2 {
