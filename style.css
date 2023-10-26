@@ -64,6 +64,41 @@ h6 {
   isolation: isolate;
 }
 
+ second
+/* Second Section */
+.second {
+  background-color: hsla(0, 0%, 98%, 1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  padding: 25px 50px;
+  gap: 50px;
+  place-items: center;
+}
+
+.navigation nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+.navigation nav ul li {
+  list-style-type: none;
+}
+
+.navigation nav ul a {
+  color: hsla(0, 0%, 69%, 1);
+  text-decoration: none;
+}
+
+.icons i {
+  color: rgb(58, 54, 54);
+}
+
+.icons i:nth-child(2) {
+  color: blue;
+}
+
+/* Second Section */
+
 /* blue_section  */
 
 .startups_section {
@@ -107,3 +142,4 @@ h6 {
   width: 100px;
  }
 
+ main
