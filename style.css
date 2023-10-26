@@ -63,3 +63,18 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* logo section starts here */
+.logos {
+  background-color: #F8F8F8;
+  display: flex;
+  gap: 20px;
+  margin: 20px 100px;
+  text-align: center;
+  align-items: center;
+}
+
+ img {
+  height: 50px;
+  width: 90px;
+ }
