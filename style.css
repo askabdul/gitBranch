@@ -161,7 +161,7 @@ header div button {
 }
 
 .startups_section {
-  background-color: #5716b8;
+  background-color: blue;
 
 }
 
@@ -171,7 +171,7 @@ header div button {
   gap: 3rem;
   color: rgb(232, 226, 226);
   opacity: 0.9;
-  padding: 3rem 10rem;
+  padding: 3rem 9rem;
 
 }
 
