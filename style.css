@@ -92,3 +92,17 @@ h6 {
 .startups_text i {
   font-size: 1.5rem;
 }
+/* logo section starts here */
+.logos {
+  background-color: #F8F8F8;
+  display: flex;
+  padding: 3rem 12rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ img {
+  height: 60px;
+  width: 100px;
+ }
