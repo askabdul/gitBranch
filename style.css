@@ -105,18 +105,5 @@ img {
 /* Living room styling ends here */
 
 
-/* logo section starts here */
-.logos {
-  background-color: #F8F8F8;
-  display: flex;
-  padding: 3rem 12rem;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around;
-}
 
- img {
-  height: 60px;
-  width: 100px;
- }
 
