@@ -64,6 +64,7 @@ h6 {
   isolation: isolate;
 }
 
+/* blue_section  */
 header {
   display: flex;
   justify-content: space-around;
@@ -160,16 +161,18 @@ header div button {
 }
 
 .startups_section {
-  background-color: #5716b8;
+  background-color: blue;
+
 }
 
 .sub_sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  padding: 1.9rem 5rem;
-  gap: 2rem;
+  gap: 3rem;
   color: rgb(232, 226, 226);
   opacity: 0.9;
+  padding: 3rem 9rem;
+
 }
 
 .startups_text h2 {
@@ -185,6 +188,10 @@ header div button {
 .startups_text i {
   font-size: 1.5rem;
 }
+/* logo section starts here */
+.logos {
+  background-color: #F8F8F8;
+}
 
 .logos {
   background-color: #f8f8f8;
@@ -195,6 +202,10 @@ header div button {
   justify-content: space-around;
 }
 
+ img {
+  height: 60px;
+  width: 100px;
+ }
 img {
   height: 50px;
   width: 90px;
@@ -313,3 +324,4 @@ footer .pillar-footer-section h4 {
 .footer-social-icons a i {
   opacity: 0.8;
 }
+
