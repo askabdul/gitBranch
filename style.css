@@ -64,6 +64,7 @@ h6 {
   isolation: isolate;
 }
 
+ second
 /* Second Section */
 .second {
   background-color: hsla(0, 0%, 98%, 1);
@@ -97,3 +98,48 @@ h6 {
 }
 
 /* Second Section */
+
+/* blue_section  */
+
+.startups_section {
+  background-color: #5716b8;
+}
+
+.sub_sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  padding: 1.9rem 5rem;
+  gap: 2rem;
+  color: rgb(232, 226, 226);
+  opacity: 0.9;
+}
+
+.startups_text h2 {
+  font-size: 15px;
+  padding-top: 0.4rem;
+}
+
+.startups_text P {
+  font-size: 14px;
+  padding-top: 0.5rem;
+}
+
+.startups_text i {
+  font-size: 1.5rem;
+}
+/* logo section starts here */
+.logos {
+  background-color: #F8F8F8;
+  display: flex;
+  padding: 3rem 12rem;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ img {
+  height: 60px;
+  width: 100px;
+ }
+
+ main
