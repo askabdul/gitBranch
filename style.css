@@ -67,21 +67,21 @@ h6 {
 /* blue_section  */
 
 .startups_section {
-  background-color:#5716b8;
+  background-color: #5716b8;
 }
 
 .sub_sections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr  ));
-    padding: 1.5rem 5rem;
-    gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  padding: 1.9rem 5rem;
+  gap: 2rem;
   color: rgb(232, 226, 226);
   opacity: 0.9;
 }
 
 .startups_text h2 {
-   font-size: 15px;
-   padding-top: 0.4rem;
+  font-size: 15px;
+  padding-top: 0.4rem;
 }
 
 .startups_text P {
