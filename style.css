@@ -67,36 +67,28 @@ h6 {
 
 
 
+
 header {
+  padding: 1rem 6.5rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between; 
+}
+h2 {
+  font-size: 1.3rem;
 }
 
-.pillar {
-  font-weight: 600;
+.start button {
+  border: 1px solid rgb(226, 221, 221);
+  border-radius: 3px;
+  background-color: transparent;
+}
+.start {
+  padding: 0.3rem 0.3rem;
 }
 
-header btn {
-  border: 0;
-  padding: 5px 20px;
-  color: floralwhite;
-  cursor: pointer;
-  border-radius: 5px;
-}
-.menu ul {
-  display: flex;
-  gap: 0.5rem;
- font-size: 12px;
-}
 
-.menu ul li {
-  list-style-type: none;
-}
 
-.menu {
-  display: flex;
-  justify-content: space-around;
-}
+
 
 
 
