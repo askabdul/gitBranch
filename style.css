@@ -87,7 +87,11 @@ footer{
   display: flex;
   justify-content: center;
   gap: 3rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
+}
+
+footer a{
+  color: white;
 }
 
 footer section:nth-child(1){
@@ -98,20 +102,22 @@ footer section:nth-child(2){
   flex-basis: 25%;
 }
 
-footer section:nth-child(2) p{
-  width: 85%;
-}
-
 footer section:nth-child(3){
   flex-basis: 25%;
 }
 
-footer .pillar-footer-section ul{
-  padding-left: 0;
+footer section:nth-child(2) p{
+  width: 70%;
+  opacity: 0.7;
 }
 
-footer a{
-  color: white;
+
+.feed-footer-section h4, .subscribe-footer-section h4{
+  opacity: 0.8;
+}
+
+footer .pillar-footer-section ul{
+  padding-left: 0;
 }
 
 footer li{
@@ -122,20 +128,33 @@ footer h4{
   margin-bottom: 2rem;
 }
 
-
 footer .pillar-footer-section h4{
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
+  opacity: 0.8;
+  margin-bottom: 1rem;
 }
 
 .pillar-footer-section p{
   margin-bottom: 2rem;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.pillar-footer-section a{
+  text-decoration: none;
+  color: grey;
+}
+
+.pillar-footer-section a li{
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
 }
 
 .subscribe-input-container{
   position: relative;
   width: 100%;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .subscribe-input-container input{
@@ -145,9 +164,14 @@ footer .pillar-footer-section h4{
   width: 70%;
 }
 
+.subscribe-input-container input::placeholder{
+  opacity: 0.5;
+}
+
 .subscribe-input-container button{
+  position: absolute;
   background-color: rgb(64,86,177);
-  color: white;
+  color: grey;
   padding: 0.8rem 2rem;
   border: none;
   border-radius: 0 30px 30px 0;
@@ -155,11 +179,18 @@ footer .pillar-footer-section h4{
 }
 
 .subscribe-footer-section p{
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
 }
 
 .footer-social-icons{
   display: flex;
   gap: 2rem;
+  color: rgb(107,107,107);
+}
+
+
+.footer-social-icons a i{
+  opacity: 0.8;
 }
 
