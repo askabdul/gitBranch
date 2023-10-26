@@ -64,6 +64,109 @@ h6 {
   isolation: isolate;
 }
 
+
+
+/* Living room styling starts here */
+
+.living-room {
+  background-color: ghostwhite;
+}
+
+.room-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room-text {
+padding-top: 3rem;
+padding-left: 8rem;
+}
+
+
+.room-text p:nth-of-type(1) {
+padding-top: 1rem;
+}
+
+.room-text p:nth-of-type(2) {
+padding-top: 1rem;
+}
+
+
+.about a{
+  color: black;
+}
+
+img {
+  height: 450px; 
+  width: 650px;
+}
+
+
+/* Living room styling ends here */
+
+
+/* Second Section */
+.second {
+  background-color: hsla(0, 0%, 98%, 1);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  padding: 25px 50px;
+  gap: 50px;
+  place-items: center;
+}
+
+.navigation nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+.navigation nav ul li {
+  list-style-type: none;
+}
+
+.navigation nav ul a {
+  color: hsla(0, 0%, 69%, 1);
+  text-decoration: none;
+}
+
+.icons i {
+  color: rgb(58, 54, 54);
+}
+
+.icons i:nth-child(2) {
+  color: blue;
+}
+
+/* Second Section */
+
+/* blue_section  */
+
+.startups_section {
+  background-color: #5716b8;
+}
+
+.sub_sections {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  padding: 1.9rem 5rem;
+  gap: 2rem;
+  color: rgb(232, 226, 226);
+  opacity: 0.9;
+}
+
+.startups_text h2 {
+  font-size: 15px;
+  padding-top: 0.4rem;
+}
+
+.startups_text P {
+  font-size: 14px;
+  padding-top: 0.5rem;
+}
+
+.startups_text i {
+  font-size: 1.5rem;
+}
 /* logo section starts here */
 .logos {
   background-color: #F8F8F8;
@@ -162,4 +265,5 @@ footer .pillar-footer-section h4{
   display: flex;
   gap: 2rem;
 }
+
 
