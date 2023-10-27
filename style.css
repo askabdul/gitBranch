@@ -64,29 +64,29 @@ h6 {
   isolation: isolate;
 }
 
-
-
-
+/* blue_section  */
 header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
-.pillar {
+header .pillar {
   font-weight: 600;
+  font-size: 2rem;
 }
 
-header btn {
+header div button {
   border: 0;
   padding: 5px 20px;
-  color: floralwhite;
+  color: rgb(37, 37, 35);
   cursor: pointer;
   border-radius: 5px;
 }
 .menu ul {
   display: flex;
   gap: 0.5rem;
- font-size: 12px;
+  font-size: 12px;
 }
 
 .menu ul li {
@@ -98,8 +98,6 @@ header btn {
   justify-content: space-around;
 }
 
-
-
 .living-room {
   background-color: ghostwhite;
 }
@@ -110,33 +108,26 @@ header btn {
 }
 
 .room-text {
-padding-top: 3rem;
-padding-left: 8rem;
+  padding-top: 3rem;
+  padding-left: 8rem;
 }
 
-
 .room-text p:nth-of-type(1) {
-padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 .room-text p:nth-of-type(2) {
-padding-top: 1rem;
+  padding-top: 1rem;
 }
 
-
-.about a{
+.about a {
   color: black;
 }
 
-img {
-  height: 450px; 
+.living-room img {
+  height: 450px;
   width: 650px;
 }
-
-
-
-
-
 
 .second {
   background-color: hsla(0, 0%, 98%, 1);
@@ -169,19 +160,19 @@ img {
   color: blue;
 }
 
-
-
 .startups_section {
-  background-color: #5716b8;
+  background-color: blue;
+
 }
 
 .sub_sections {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  padding: 1.9rem 5rem;
-  gap: 2rem;
+  gap: 3rem;
   color: rgb(232, 226, 226);
   opacity: 0.9;
+  padding: 3rem 9rem;
+
 }
 
 .startups_text h2 {
@@ -197,9 +188,13 @@ img {
 .startups_text i {
   font-size: 1.5rem;
 }
-
+/* logo section starts here */
 .logos {
   background-color: #F8F8F8;
+}
+
+.logos {
+  background-color: #f8f8f8;
   display: flex;
   padding: 3rem 12rem;
   text-align: center;
@@ -208,15 +203,18 @@ img {
 }
 
  img {
+  height: 60px;
+  width: 100px;
+ }
+img {
   height: 50px;
   width: 90px;
- }
+}
 
-
- /* -------------------------FOOTER SECTION---------------------------- */
-.upper-footer{
+/* -------------------------FOOTER SECTION---------------------------- */
+.upper-footer {
   padding: 3rem;
-  background-color: rgb(34,34,34);
+  background-color: rgb(34, 34, 34);
   color: white;
   display: flex;
   justify-content: center;
@@ -224,87 +222,86 @@ img {
   font-size: 1rem;
 }
 
-.upper-footer a{
+.upper-footer a {
   color: white;
 }
 
-.upper-footer section:nth-child(1){
+.upper-footer section:nth-child(1) {
   flex-basis: 25%;
 }
 
-.upper-footer section:nth-child(2){
+.upper-footer section:nth-child(2) {
   flex-basis: 25%;
 }
 
-.upper-footer section:nth-child(3){
+.upper-footer section:nth-child(3) {
   flex-basis: 25%;
 }
 
-.upper-footer section:nth-child(2) p{
+.upper-footer section:nth-child(2) p {
   width: 70%;
   opacity: 0.7;
 }
 
-
-.upper-footer .feed-footer-section h4, .upper-footer .subscribe-footer-section h4{
+.feed-footer-section h4,
+.subscribe-footer-section h4 {
   opacity: 0.8;
 }
 
-.upper-footer .pillar-footer-section ul{
+.upper-footer .pillar-footer-section ul {
   padding-left: 0;
 }
-
-.upper-footer li{
+.upper-footer li {
   list-style: none;
 }
 
-.upper-footer h4{
+.upper-footer h4 {
   margin-bottom: 2rem;
 }
 
-.upper-footer .pillar-footer-section h4{
+.upper-footer .pillar-footer-section h4 {
   font-weight: 700;
   font-size: 2rem;
   opacity: 0.8;
   margin-bottom: 1rem;
 }
 
-.upper-footer .pillar-footer-section p{
+.pillar-footer-section p {
   margin-bottom: 2rem;
   opacity: 0.7;
   font-weight: 600;
 }
 
-.upper-footer .pillar-footer-section a{
+.pillar-footer-section a {
   text-decoration: none;
   color: grey;
 }
 
-.upper-footer .pillar-footer-section a li{
+.pillar-footer-section a li {
   margin-bottom: 0.5rem;
   font-size: 0.9rem;
 }
 
-.upper-footer .subscribe-input-container{
+.subscribe-input-container {
   position: relative;
   width: 100%;
   margin-bottom: 3rem;
 }
 
-.upper-footer .subscribe-input-container input{
+.subscribe-input-container input {
   border-radius: 30px 0 0 30px;
   padding: 0.8rem;
   border: none;
   width: 70%;
 }
 
-.upper-footer .subscribe-input-container input::placeholder{
+.subscribe-input-container input::placeholder {
   opacity: 0.5;
 }
 
-.upper-footer .subscribe-input-container button{
+.subscribe-input-container button {
   position: absolute;
-  background-color: rgb(64,86,177);
+  background-color: rgb(64, 86, 177);
   color: grey;
   padding: 0.8rem 2rem;
   border: none;
@@ -312,43 +309,40 @@ img {
   width: 20%;
 }
 
-.upper-footer .subscribe-footer-section p{
+.subscribe-footer-section p {
   margin-bottom: 2rem;
   opacity: 0.8;
 }
 
-.upper-footer .footer-social-icons{
+.footer-social-icons {
   display: flex;
   gap: 2rem;
-  color: rgb(107,107,107);
+  color: rgb(107, 107, 107);
 }
 
-
-.upper-footer .footer-social-icons a i{
+.footer-social-icons a i {
   opacity: 0.8;
 }
 
+
 .lower-footer{
-  padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(30,30,30);
+  background-color: rgb(29,29,29);
+  padding: 2rem;
 }
 
-.lower-footer div p{
-  opacity: 0.7;
+.lower-footer p{
   color: grey;
-  padding-left: 12rem;
   font-weight: 600;
+  padding-left: 12rem;
 }
 
-
-.lower-footer div button{
+.lower-footer button{
   background-color: rgb(72,130,82);
   color: white;
   border: none;
   border-radius: 30px;
   padding: 1rem 5rem;
 }
-
