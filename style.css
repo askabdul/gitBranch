@@ -203,7 +203,12 @@ header div button {
   justify-content: space-around;
 }
 
- img {
+  .logos img {
+   height: 80px;
+   width: 120px;
+ }
+
+img {
   height: 60px;
   width: 100px;
  }
