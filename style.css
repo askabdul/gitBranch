@@ -213,7 +213,7 @@ img {
 }
 
 /* -------------------------FOOTER SECTION---------------------------- */
-footer {
+.upper-footer {
   padding: 3rem;
   background-color: rgb(34, 34, 34);
   color: white;
@@ -223,23 +223,23 @@ footer {
   font-size: 1rem;
 }
 
-footer a {
+.upper-footer a {
   color: white;
 }
 
-footer section:nth-child(1) {
+.upper-footer section:nth-child(1) {
   flex-basis: 25%;
 }
 
-footer section:nth-child(2) {
+.upper-footer section:nth-child(2) {
   flex-basis: 25%;
 }
 
-footer section:nth-child(3) {
+.upper-footer section:nth-child(3) {
   flex-basis: 25%;
 }
 
-footer section:nth-child(2) p {
+.upper-footer section:nth-child(2) p {
   width: 70%;
   opacity: 0.7;
 }
@@ -249,19 +249,18 @@ footer section:nth-child(2) p {
   opacity: 0.8;
 }
 
-footer .pillar-footer-section ul {
+.upper-footer .pillar-footer-section ul {
   padding-left: 0;
 }
-
-footer li {
+.upper-footer li {
   list-style: none;
 }
 
-footer h4 {
+.upper-footer h4 {
   margin-bottom: 2rem;
 }
 
-footer .pillar-footer-section h4 {
+.upper-footer .pillar-footer-section h4 {
   font-weight: 700;
   font-size: 2rem;
   opacity: 0.8;
@@ -326,3 +325,25 @@ footer .pillar-footer-section h4 {
   opacity: 0.8;
 }
 
+
+.lower-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(29,29,29);
+  padding: 2rem;
+}
+
+.lower-footer p{
+  color: grey;
+  font-weight: 600;
+  padding-left: 12rem;
+}
+
+.lower-footer button{
+  background-color: rgb(72,130,82);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 1rem 5rem;
+}
