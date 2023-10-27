@@ -76,14 +76,16 @@ header .pillar {
   font-size: 2rem;
 }
 
-header div button {
+header button {
   border: 1px solid rgb(224, 221, 221);
   padding: 5px 20px;
   color: rgb(37, 37, 35);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 3px;
   background: transparent;
+  color: rgb(190, 188, 188);
 }
+
 .menu ul {
   display: flex;
   gap: 0.5rem;
