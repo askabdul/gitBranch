@@ -129,6 +129,63 @@ header div button {
   width: 650px;
 }
 
+.img-div {
+  width: 50%;
+  background-image: url(./imgs/phoneMan.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.section-3 {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  width: 344px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-details {
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  width: 50%;
+  /* padding-left: 310px; */
+}
+
+.section-details p {
+  font-size: 18px;
+  opacity: 0.6;
+  line-height: 25px;
+}
+
+.circle-area {
+  display: flex;
+  gap: 10px;
+}
+.circle-area a {
+  color: aliceblue;
+}
+.circle-area p {
+  font-size: 8px;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.play-btn {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
 .second {
   background-color: hsla(0, 0%, 98%, 1);
   display: grid;
@@ -162,7 +219,6 @@ header div button {
 
 .startups_section {
   background-color: blue;
-
 }
 
 .sub_sections {
@@ -172,7 +228,6 @@ header div button {
   color: rgb(232, 226, 226);
   opacity: 0.9;
   padding: 3rem 9rem;
-
 }
 
 .startups_text h2 {
@@ -190,7 +245,7 @@ header div button {
 }
 /* logo section starts here */
 .logos {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 .logos {
@@ -202,10 +257,10 @@ header div button {
   justify-content: space-around;
 }
 
- img {
+img {
   height: 60px;
   width: 100px;
- }
+}
 img {
   height: 50px;
   width: 90px;
@@ -324,4 +379,3 @@ footer .pillar-footer-section h4 {
 .footer-social-icons a i {
   opacity: 0.8;
 }
-
